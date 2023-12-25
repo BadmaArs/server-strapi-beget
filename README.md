@@ -1,0 +1,1 @@
+# server-strapi-beget
