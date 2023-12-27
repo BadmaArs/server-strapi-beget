@@ -3,7 +3,7 @@ module.exports = ({ env }) => {
     settings: {
       cors: {
         enabled: true,
-        origin: ["http://5.181.108.131:1337"],
+        origin: ["https://football-club-coursework.vercel.app"],
       },
     },
     load: {
