@@ -5,9 +5,9 @@ module.exports = [
   {
     name: 'strapi::cors',
     config: {
-      enabled: true,
+      enabled: false,
       headers: '*',
-      origin: ['https://football-club-coursework.vercel.app', 'localhost:3001', 'http://5.181.108.131:1337']
+      origin: ['https://football-club-coursework.vercel.app', 'http://localhost:3001', 'http://5.181.108.131:1337']
     }
   },
   'strapi::logger',
