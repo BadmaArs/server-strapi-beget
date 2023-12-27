@@ -6,7 +6,7 @@ module.exports = {
   settings: {
     cors: {
       enabled: true,
-      origin: ['*']
+      origin: ['https://football-club-coursework.vercel.app/']
     },
   },
 };
