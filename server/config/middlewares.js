@@ -7,7 +7,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['https://football-club-coursework.vercel.app', 'localhost:3001']
+      origin: ['https://football-club-coursework.vercel.app', 'localhost:3001', 'http://5.181.108.131:1337']
     }
   },
   'strapi::logger',
