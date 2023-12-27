@@ -1,12 +1,12 @@
 module.exports = {
   load: {
-    before: ['timer', 'responseTime', 'logger', 'cors', 'responses', 'gzip'],
+    before: ['timer', 'responseTime', 'logger', 'responses', 'gzip'],
     after: ['parser', 'router'],
   },
   settings: {
     cors: {
-      enabled: true,
-      origin: ['https://football-club-coursework.vercel.app/']
+      enabled: false,
     },
   },
 };
+
