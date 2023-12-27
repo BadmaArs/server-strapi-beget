@@ -1,13 +1,12 @@
-module.exports = ({ env }) => {
-  return {
-    settings: {
-      cors: {
-        enabled: true,
-        origin: ["https://football-club-coursework.vercel.app"],
-      },
-    },
-    load: {
-      before: ["cors", "poweredBy", "logger", "responses", "gzip"],
-    },
-  };
-};
+module.exports = [
+  'strapi::logger',
+  'strapi::errors',
+  'strapi::security',
+  'strapi::cors',
+  'strapi::poweredBy',
+  'strapi::query',
+  'strapi::body',
+  'strapi::session',
+  'strapi::favicon',
+  'strapi::public',
+];
